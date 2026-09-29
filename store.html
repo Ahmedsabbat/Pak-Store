@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pak Store</title>
+    <link rel="stylesheet" href="store.css">
+    <script src="store.js" defer></script>
+</head>
+<body>
+    <header id="head">
+        <div id="headcontent">
+        <div id="brand">
+        <img src="logobird.jpg" alt="Pak store logo" id="logo">
+        <h1 id="storename">Pak Store</h1>
+        </div>
+        <nav>
+        <div id="headnav">
+            <a href="" class="headerlink">home</a>
+            <a href="" class="headerlink">product</a>
+            <a href="" class="headerlink">cart</a>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <section id="searchsection">
+        <div id="searchbox">
+            <label for="searchproduct">Search Product</label>
+            <input type="text" id="searchproduct" placeholder="Search your product">
+            <button id="searchbtn">search</button>
+        </div>
+    </section>
+    <section id="categorysection">
+        <div id="categorybox">
+            <label for="categoryfilter">Category</label>
+    <select id="categoryfilter">
+        <option>All Products</option>
+    </select>
+    </div>
+    </section>
+    <section> 
+        <h2 id="productheading">Products</h2>
+        <div id="productcontainer"></div>
+    </section>
+    <section>
+        <div id="cartsection">
+        <h2 id="cartheading">Cart</h2>
+        
+        <div id="cartcontainer"></div>
+        <div id="cartsummary">
+            <p id="subtotal">Subtotal: Rs. 0</p>
+            <p id="delivery">Delivery: Rs. 200</p>
+            <p id="carttotal">Grandtotal: Rs. 0</p>
+        </div>
+        <button id="checkbtn">Checkout</button>
+        </div>
+    </section>
+    <form id="checkoutform">
+        <h2>Checkout</h2>
+        <label for="customername">Enter Name</label>
+        <input type="text" id="customername" placeholder="Enter your name">
+        <label for="customeremail">Enter your Email</label>
+        <input type="email" id="customeremail" placeholder="Enter your Email">
+        <label> 
+            <input type="radio" name="payment" value="cash">cash on delivery
+        </label>
+        <label>
+            <input type="radio" name="payment" value="card">payment by card
+        </label>
+        <label for="customeraddress">Your Address</label>
+        <textarea id="customeraddress" placeholder="Enter your address"></textarea>
+        <button id="orderbtn">Order now</button>
+    </form>
+    <footer id="footer">
+        <h2>For Contact Us</h2>
+        <h3>Pak Store</h3>
+        <p>pakstore1234@gmail.com</p>
+        <h3>Contact No: </h3>
+        <p>+92 32 4145698</p>
+    </footer>
+
+
+    
+</body>
+</html>
